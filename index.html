@@ -1,17 +1,6 @@
 <!DOCTYPE html>
 <html style="font-size: 16px;">
   <head>
-
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-T2LF67QZ');</script>
-<!-- End Google Tag Manager -->
-	  
-
-	  
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-CC7DE4QRDM"></script>
 <script>
@@ -23,6 +12,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </script>
 <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 
 <script type="text/javascript">
@@ -56,6 +46,7 @@ backgroundColor:"transparent",
 var chart = new CanvasJS.Chart("chartContainer", {
 backgroundColor:"transparent" ,
 	animationEnabled: true,
+	
 	title:{
 		text: "Programming Languages",
 		horizontalAlign: "left"
@@ -81,7 +72,57 @@ radius:"70%",
 	}]
 });
 
+
 	chart.render();
+	
+	var barchart = new CanvasJS.Chart("barchartContainer", {
+		backgroundColor:"transparent" ,
+   // "light1", "light2", "dark1"
+  animationEnabled: true,
+  //exportEnabled: true,
+  title: {
+    text: "Tools & Softwares"
+  },
+  axisX: {
+    margin: 10,
+    //labelPlacement: "inside",
+    tickPlacement: "inside"
+  },
+  axisY2: {
+    title: "by years of experience",
+    titleFontSize: 14,
+    suffix: " years"
+  },
+  data: [{
+    type: "bar",
+    axisYType: "secondary",
+    indexLabel: "{y}",
+    dataPoints: [
+  	
+      { label: "Gephi", y: 1 },
+  	{label:"Looker Studio",y:1},
+      { label: "DSS dataiku", y: 1 },
+     
+      
+      { label: "Azure", y: 1 },
+      { label: "GCP", y: 1 },
+      { label: "Databricks", y: 1 },
+  	
+      { label: "Rapidminer", y: 1 },
+  	
+  	{ label: "Anaconda", y: 2 },
+  	{ label: "R studio", y: 3 },
+  	
+  	{ label: "Postgres SQL", y: 4 },
+  	
+      { label: "Jupyter notebook", y: 4 }
+      
+  	
+    ]
+  }]
+});	
+	barchart.render();
+	
 }
 </script>
 <script type="text/javascript" src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
@@ -297,10 +338,6 @@ radius:"70%",
   
 </head>
   <body class="u-body">
-	  <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T2LF67QZ"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v21.0"></script>
 
@@ -398,6 +435,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                      <li>Team mangement</li>
 
 <div id="chartContainer" style="height: 350px; width: 100%;"></div>
+  	<div id="barchartContainer" style="height: 350px; width: 100%;"></div>
 
 </ul>
                   </div>
