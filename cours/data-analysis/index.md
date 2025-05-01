@@ -32,16 +32,11 @@
 - Détection d’anomalies
 ## [Module 5 : Introduction à l’analyse statistique](introduction-a-lanalyse-statistique.md)
 - Régression linéaire simple
-
 - Tests d’hypothèses (t-test, chi²)
-
 - Analyse multivariée de base
 
 ## [Module 6 : Présentation et communication des résultats](presentation-et-communication-des-resultats.md)
 - Structuration d’un rapport d’analyse
-
 - Data storytelling
-
 - Bonnes pratiques de visualisation
-
 - Présentation orale des résultats
