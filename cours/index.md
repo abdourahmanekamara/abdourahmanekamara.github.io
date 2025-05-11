@@ -14,8 +14,8 @@ Bienvenue sur ma page de cours, vous trouverez ci-après les liens vers les diff
 3. [Machine Learning](ml)  
  Machine learning supervisé et non supervisé.
 
-4. [Accès aux données](data-access)  
-   Extraction et traitement de données, statistiques descriptives, data visualisation et reporting.
+4. [SQL](sql)  
+   Bases de données relationnelles et intérrogation.
 
 5. [Analyse de réseaux](na)  
    Graphes, gephi, noeuds, liens, métriques, composantes.
