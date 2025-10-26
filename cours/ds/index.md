@@ -1,6 +1,6 @@
 # SCIENCE DES DONNÉES APPLIQUÉE  
 ## Préparation aux stages & Masters internationaux  
-**Formateur indépendant : [Abdourahmane T. Kamara]**  
+**Formateur indépendant : Abdourahmane T. Kamara**  
 **Durée : 40 heures** – **Langue : Français (supports bilingues FR/EN)**  
 **Public : Licence 3 / Master 1-2** – **Prérequis : Bon niveau Python + bases stats/maths**
 
@@ -64,21 +64,18 @@
 ---
 
 ## CONTACT & PROPOSITION
-**Formateur :** [Abdourahmane T. Kamara]  
-**Expérience :** [8 années] 
+**Formateur :** Abdourahmane T. Kamara  
+**Expérience :** 8 années
 **Tarif :** Sur devis (intra-universitaire ou inter-établissements)  
 
-> **Prochaines étapes** :  
-> - Envoi d’un **exemple de projet complet** (GitHub)  
-> - **Séance pilote gratuite** (2h) sur demande  
-> - **QCM type** et **modèle de rapport** fournis
+
 
 ---
 
 **Contact :**  
-📧 [kamaraab29@gmail.com]  
+📧 kamaraab29@gmail.com  
 📱 [+33 6 67 41 05 43]  
 📱 [+221 71 042 38 66]  
-🌐 [https://abdourahmanekamara.github.io/?utm_source=ds]
+🌐 [siteweb](https://abdourahmanekamara.github.io/?utm_source=ds)
 
 ---
