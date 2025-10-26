@@ -19,3 +19,5 @@ Bienvenue sur ma page de cours, vous trouverez ci-après les liens vers les diff
 
 5. [Analyse de réseaux](na)  
    Graphes, gephi, noeuds, liens, métriques, composantes.
+
+6. [Science des données appliquée](ds)
